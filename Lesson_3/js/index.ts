@@ -1,10 +1,10 @@
 import 'phaser';
-import { Main } from './game';
+import { Main } from './main';
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
-  width: 500,
-  height: 340,
+  width: 1600,
+  height: 900,
   render: {
     pixelArt: true,
     antialias: false,
