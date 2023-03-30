@@ -1,4 +1,4 @@
-# 🧶 Phaser 3
+# 🕹️ Phaser 3
 ## 🖥️ Learn framework
 
 
@@ -12,3 +12,9 @@
 ```js
 const lessonSelector = './Lesson_1/'; // target lesson folder
 ```
+
+# 🕹️ Lessons: 
+
+* `Lesson 1` - init project
+* `Lesson 2` - start project. create scene. load assets. run game.
+* `Lesson 3` - core mechanics.
