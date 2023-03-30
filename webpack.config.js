@@ -3,10 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const package = require('./package.json');
 
-const lessonSelector = './Lesson_0/';
+const lessonSelector = './Lesson_1/';
 
 module.exports = {
-  entry: path.resolve(__dirname, lessonSelector + 'src/js/index.ts'),
+  entry: path.resolve(__dirname, lessonSelector + 'js/index.ts'),
   module: {
     rules: [
       {
@@ -61,13 +61,13 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: lessonSelector + 'src/assets/',
+          from: lessonSelector + 'assets/',
           to: 'assets/',
         },
       ],
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, lessonSelector + 'src/index.html'),
+      template: path.resolve(__dirname, lessonSelector + 'index.html'),
       filename: 'index.html',
       title: package.description,
       inject: 'body',
