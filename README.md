@@ -18,3 +18,4 @@ const lessonSelector = './Lesson_1/'; // target lesson folder
 * `Lesson 1` - init project
 * `Lesson 2` - start project. create scene. load assets. run game.
 * `Lesson 3` - core mechanics.
+* `Lesson 4` - creating the world. Ground. Collision. `coming soon...`
