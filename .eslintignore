@@ -1,0 +1,11 @@
+/dist
+/build_prod
+/node_modules
+/webpack
+
+.eslintrc.js
+webpack.config.babel.js
+
+server
+src/helpers
+tools
