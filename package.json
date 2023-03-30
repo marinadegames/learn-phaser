@@ -11,9 +11,7 @@
   "author": "Eugene Pashkevich",
   "license": "MIT",
   "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
+    "presets": ["@babel/preset-env"]
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -31,7 +29,6 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "eslint": "^8.37.0",
     "prettier": "^2.8.7"
   }
 }
