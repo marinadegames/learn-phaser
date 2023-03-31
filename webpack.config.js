@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const package = require('./package.json');
 
-const lessonSelector = './Lesson_3/';
+const lessonSelector = './Lesson_4/';
 
 module.exports = {
   entry: path.resolve(__dirname, lessonSelector + 'js/index.ts'),
