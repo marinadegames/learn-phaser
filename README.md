@@ -1,8 +1,6 @@
 # 🕹️ Phaser 3
 ## 🖥️ Learn framework
 
-
-
 * start dev: `yarn start`
 * build prod: `yarn build`
 
@@ -19,3 +17,4 @@ const lessonSelector = './Lesson_1/'; // target lesson folder
 * `Lesson 2` - start project. create scene. load assets. run game.
 * `Lesson 3` - core mechanics.
 * `Lesson 4` - creating the world. Ground. Collision.
+* `Lesson 5` - stars collect  ⭐️️
